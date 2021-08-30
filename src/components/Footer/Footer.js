@@ -18,31 +18,31 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
+        {/* <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
-        </LinkColumn>
+        </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:vieira.timothy@yahoo.ca">
+            vieira.timothy@yahoo.ca
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Growing Day By Day</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/viei0628">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/timothy-vieira-039287138/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          {/* <SocialIcons href="https://google.com">
             <AiFillInstagram size="3rem" />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

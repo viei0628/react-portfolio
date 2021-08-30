@@ -67,11 +67,12 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+        I am an aspiring young Software Developer always learning more about the
+        tech industry. I am currently attending McGill University for an
+        undergraduate degree in computer science. I am always looking for new
+        opportunities to learn.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -139,8 +140,8 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
-      <SectionDivider />
+      </CarouselButtons> */}
+      {/* <SectionDivider /> */}
     </Section>
   );
 };

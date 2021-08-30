@@ -17,11 +17,11 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I am a fullstack developer who would be a tremendous asset to your team.
+        I am a fullstack developer who would be a tremendous asset to any team.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      {/* <Button onClick={() => (window.location = "https://google.com")}>
         Learn More
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );
