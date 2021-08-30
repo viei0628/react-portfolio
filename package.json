@@ -1,7 +1,6 @@
 {
   "name": "portfolio_nextjs",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://viei0628.github.io/react-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
